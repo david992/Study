@@ -13,7 +13,7 @@ def server(port):
     while True:
         c,addr = s.accept()
         print("connect from ",addr)
-        #handler(c) 普通魂环服务器
+        #handler(c) 普通循环服务器
         gevent.spawn(handler,c) #协程服务器
 
 def handler(c):
