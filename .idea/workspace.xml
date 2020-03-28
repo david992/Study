@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1f22b04-4c93-4fd4-a1f0-46a0227fb34e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/include.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/include_test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/macros.html" afterDir="false" />
+    <list default="true" id="e1f22b04-4c93-4fd4-a1f0-46a0227fb34e" name="Default Changelist" comment="flask-{% for %};{% macro %};{% if %};{% include %}">
+      <change afterPath="$PROJECT_DIR$/FlaskTest/static/images/socket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskTest/static/images/zhaopin.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskTest/Run1.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/Run1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskTest/run_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/run_template.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskTest/templates/first_temp.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/templates/first_temp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskTest/templates/include_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/templates/include_test.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,21 +34,22 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Study\static\images" />
+      <recent name="E:\Study\templates" />
+      <recent name="E:\Study\html" />
+      <recent name="E:\Study\WLBC" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Study\FlaskTest" />
+      <recent name="E:\Study\static\images" />
       <recent name="E:\Study\templates" />
       <recent name="E:\Study\html" />
       <recent name="E:\Study\DuoXianCheng" />
-      <recent name="E:\Study\WLBC" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Study\templates" />
-      <recent name="E:\Study\html" />
-      <recent name="E:\Study\WLBC" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -271,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585304825925</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="flask-{% for %};{% macro %};{% if %};{% include %}">
+      <created>1585380399767</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585380399767</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,6 +296,7 @@
     <MESSAGE value="gevent_server.py 修改" />
     <MESSAGE value="添加readme" />
     <MESSAGE value="flask--tamplates" />
-    <option name="LAST_COMMIT_MESSAGE" value="flask--tamplates" />
+    <MESSAGE value="flask-{% for %};{% macro %};{% if %};{% include %}" />
+    <option name="LAST_COMMIT_MESSAGE" value="flask-{% for %};{% macro %};{% if %};{% include %}" />
   </component>
 </project>
