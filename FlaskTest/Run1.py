@@ -35,7 +35,7 @@ def show(name,age):
 def url_show():
     show_url = url_for("show",name="name",age=24)
     print((show_url))
-    resp = "<a href = '"+show_url+"'> "+show_url+"</a>"
+    resp = "<a href = '" +show_url+ "'> "  +  show_url+ "</a>"
     return resp
 
 #多URL路由

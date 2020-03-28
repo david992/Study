@@ -5,6 +5,9 @@ class Person(object):
     def say(self):
         return " i am a person"
 
+@app.route("/login")
+def login():
+    return "这里是登录页面"
 
 @app.route("/temp")
 def temp():
@@ -28,8 +31,13 @@ def temp():
             "四":"four"}
     per = Person()
     per.name = "旗木卡卡西"
+    uname = "   hello world     "
     resp =  render_template("first_temp.html",values=locals())
     return resp
 
+
+@app.route("/inc")
+def inc():
+    return render_template("include_test.html",uname="测试变量")
 if __name__ == "__main__":
     app.run(debug=True)
