@@ -39,5 +39,10 @@ def temp():
 @app.route("/inc")
 def inc():
     return render_template("include_test.html",uname="测试变量")
+
+@app.errorhandler(404)
+def page_not_fonud(e):
+    return render_template("404.html"),404
+
 if __name__ == "__main__":
     app.run(debug=True)

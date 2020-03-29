@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1f22b04-4c93-4fd4-a1f0-46a0227fb34e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/index_extends.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskTest/Run2.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/Run2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskTest/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskTest/run_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/run_template.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Run2">
+  <component name="RunManager" selected="Python.run_template">
     <configuration name="Run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -222,9 +221,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run_template" />
         <item itemvalue="Python.Run2" />
         <item itemvalue="Python.Run2 (1)" />
-        <item itemvalue="Python.run_template" />
         <item itemvalue="Python.Run1" />
         <item itemvalue="Python.Run" />
       </list>
@@ -283,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585385050321</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="flask-{% for %};{% macro %};{% if %};{% include %}">
+      <created>1585455690601</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585455690601</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
