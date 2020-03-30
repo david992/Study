@@ -1,4 +1,4 @@
-from flask import Flask,render_template
+from flask import Flask, render_template, request
 
 app = Flask(__name__,template_folder="templates",
             static_url_path="/static",
@@ -45,6 +45,17 @@ def inc():
 @app.errorhandler(404)
 def page_not_fonud(e):
     return render_template("404.html"),404
+
+@app.route("/request")
+def request_views():
+    re = dir(request)
+    #获取请求方案
+    scheme = request.scheme
+    #获取请求方式
+    method = request.method
+
+    return render_template("request.html",values=locals())
+
 
 if __name__ == "__main__":
     app.run(debug=True)
