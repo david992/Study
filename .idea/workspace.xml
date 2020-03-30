@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1f22b04-4c93-4fd4-a1f0-46a0227fb34e" name="Default Changelist" comment="flask-404.html">
-      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/request.html" afterDir="false" />
+    <list default="true" id="e1f22b04-4c93-4fd4-a1f0-46a0227fb34e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/file.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/get_args.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/post_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FlaskTest/run_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/run_template.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskTest/templates/include.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/templates/include.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskTest/templates/include_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/templates/include_test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskTest/templates/first_temp.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/templates/first_temp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskTest/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskTest/templates/request.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/templates/request.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/recv.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,18 +43,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Study\static\images" />
-      <recent name="E:\Study\templates" />
-      <recent name="E:\Study\html" />
-      <recent name="E:\Study\WLBC" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Study\FlaskTest" />
       <recent name="E:\Study\static\images" />
       <recent name="E:\Study\templates" />
       <recent name="E:\Study\html" />
       <recent name="E:\Study\DuoXianCheng" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Study\static\images" />
+      <recent name="E:\Study\templates" />
+      <recent name="E:\Study\html" />
+      <recent name="E:\Study\WLBC" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -305,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585540035312</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="flask-request">
+      <created>1585544540304</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585544540304</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,6 +338,7 @@
     <MESSAGE value="flask--tamplates" />
     <MESSAGE value="flask-{% for %};{% macro %};{% if %};{% include %}" />
     <MESSAGE value="flask-404.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="flask-404.html" />
+    <MESSAGE value="flask-request" />
+    <option name="LAST_COMMIT_MESSAGE" value="flask-request" />
   </component>
 </project>

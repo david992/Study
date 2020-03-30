@@ -10,25 +10,27 @@
 {% else %}
     <a href="{{url_for('login')}}">login </a>
 {% endif %}
-</hr>
+<hr>
 
 <div style="font-size:22px;">
     {% for str in values.list %}
         <p>{{str}}</p>
     {% endfor  %}
 </div>
-</hr>
+<hr>
 
+
+<h2> 使用宏macros显示数据</h2>
 {% macro show(str) %}
     <li style="color:#f60;">{{str}}</li>
 {% endmacro %}
-<h2> 使用宏显示数据</h2>
 <ul>
     {% for i in values.list %}
         {{ show(i) }}
     {% endfor %}
 </ul>
-</hr>
+<hr>
+<h2> 导入宏模板，使用宏macros显示数据</h2>
 {% import "macros.html " as macros%}
 <ul>
     {% for i in values.tup %}
@@ -36,7 +38,7 @@
     {% endfor %}
 </ul>
 
-
+<hr>
 <h1>书名：<<{{values.bookname}}>></h1>
 <h1>作者：{{values.author}}</h1>
 <h1>价格：{{values.price}}</h1>
