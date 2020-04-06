@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>users</title>
+</head>
+<body>
+
+<table border="1">
+    <thead>
+    <tr>
+        <th>姓名</th>
+        <th>年龄</th>
+        <th>邮箱</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+     <script>
+    function delete(id){
+        if (confirm("确认删除吗")){
+            location.href="/delete?id="+id;
+        }
+    }
+    </script>
+        {% for u in values.users %}
+            <tr>
+                <td>
+<!--                    方法1     -->
+<!--                    <a href="/query_id/{{u.id}}" >-->
+<!--                    方法2     -->
+                    <a href="/query_id?id={{u.id}}">
+                    {{u.username}}
+                    </a>
+                </td>
+                <td>{{u.age}}</td>
+                <td>{{u.email}}</td>
+                <td>
+                    <a href="/update?id={{u.id}}">修改</a>
+                    <a href="/delete?id={{u.id}}">删除</a>
+                </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>update</title>
+</head>
+<body>
+<form action="/update" method="post">
+    <p>
+        姓名：<input type="text" name="username" value="{{values.user.username}}">
+        <input type="hidden" name="id" value="{{values.user.id}}">
+    </p>
+    <p>
+        年龄：<input type="text" name="age" value="{{values.user.age}}">
+    </p>
+    <p>
+        email：<input type="email" name="email" value="{{values.user.email}}">
+    </p>
+    <button type="submit" >修改</button>
+</form>
+</body>
+</html>

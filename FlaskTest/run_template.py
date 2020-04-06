@@ -1,3 +1,5 @@
+import datetime
+
 from flask import Flask, render_template, request, make_response
 from gevent import os
 from werkzeug.utils import redirect
@@ -133,8 +135,12 @@ def file_views():
         #获取上传图片名称
         filename = f.filename
         print("name:"+filename)
+        #获取时间字符串
+        ftime = datetime.datetime.now().strftime("%Y%m%d%H%M%S%f")
+        #获取文件后缀名
+        s = filename.split(".")[1]
         #路径拼接到static目录下
-        upload_path = os.path.join(basepath, "static/images/", filename)
+        upload_path = os.path.join(basepath,"static/images/", ftime+"."+s)
         #文件保存
         f.save(upload_path)
         return "upload ok !"
