@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>query_teacher</title>
+</head>
+<body>
+<table border="1">
+    <thead>
+        <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>教学课程</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for u in values.teacher %}
+        <tr>
+            <td><a href = "/query_tea/{{u.id}}">
+            {{u.tname}}
+            </a>
+            </td>
+            <td>{{u.tage}}</td>
+            <td>{{u.course.cname}}</td>
+            <td>
+                <a href="#">修改</a>
+                <a href="#">删除</a>
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>

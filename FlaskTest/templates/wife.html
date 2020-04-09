@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1">
+    <thead>
+        <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>配偶</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for u in values.wife%}
+        <tr>
+            <td>{{u.wname}}</td>
+            <td>{{u.wage}}</td>
+            <td>{{u.teacher.tname}}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>

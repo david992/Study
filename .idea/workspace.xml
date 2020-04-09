@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1f22b04-4c93-4fd4-a1f0-46a0227fb34e" name="Default Changelist" comment="flask-redirect重定向 file上传">
-      <change afterPath="$PROJECT_DIR$/FlaskTest/ran_sql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/Document.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/sql_register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/user_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/users.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/usersid.html" afterDir="false" />
+    <list default="true" id="e1f22b04-4c93-4fd4-a1f0-46a0227fb34e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/register_teacher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/teachers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/teachers_query.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/wife.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/wife_register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskTest/run_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/run_template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskTest/ran_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/ran_sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskTest/templates/sql_register.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/templates/user_register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskTest/templates/user_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/templates/user_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskTest/templates/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/templates/users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskTest/templates/usersid.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/templates/users_query.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ran_sql">
+  <component name="RunManager" selected="Python.ran_sql (1)">
     <configuration name="File" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -227,9 +229,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ran_sql (1)" />
         <item itemvalue="Python.ran_sql" />
         <item itemvalue="Python.run_template" />
-        <item itemvalue="Python.ran_sql (1)" />
         <item itemvalue="Python.File" />
         <item itemvalue="Python.Run2" />
       </list>
@@ -323,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585595702484</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="flask- insert--update--delete--query">
+      <created>1586145199927</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1586145199927</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -347,6 +356,7 @@
     <MESSAGE value="flask-404.html" />
     <MESSAGE value="flask-request" />
     <MESSAGE value="flask-redirect重定向 file上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="flask-redirect重定向 file上传" />
+    <MESSAGE value="flask- insert--update--delete--query" />
+    <option name="LAST_COMMIT_MESSAGE" value="flask- insert--update--delete--query" />
   </component>
 </project>
