@@ -128,5 +128,9 @@ def sign_out():
         del session["id"]
         del session["uname"]
     return redirect("/index")
+
+@app.route("/create_xhr")
+def create_xhr():
+    return render_template("xhr.html")
 if __name__ == "__main__":
     app.run(debug=True)

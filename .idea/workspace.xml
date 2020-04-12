@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1f22b04-4c93-4fd4-a1f0-46a0227fb34e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FlaskTest/run_cookie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskTest/temp_cookie/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskTest/temp_cookie/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskTest/temp_cookie/sign_in.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskTest/temp_cookie/xhr.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskTest/ran_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/ran_sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskTest/run_cookie.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/run_cookie.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -334,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586405390904</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="flask- cookie session">
+      <created>1586661398586</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1586661398586</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -360,6 +364,7 @@
     <MESSAGE value="flask-redirect重定向 file上传" />
     <MESSAGE value="flask- insert--update--delete--query" />
     <MESSAGE value="flask- 关系映射 一对一  一对多 多对多" />
-    <option name="LAST_COMMIT_MESSAGE" value="flask- 关系映射 一对一  一对多 多对多" />
+    <MESSAGE value="flask- cookie session" />
+    <option name="LAST_COMMIT_MESSAGE" value="flask- cookie session" />
   </component>
 </project>
