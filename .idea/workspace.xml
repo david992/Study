@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1f22b04-4c93-4fd4-a1f0-46a0227fb34e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/register_teacher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/teachers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/teachers_query.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/wife.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskTest/templates/wife_register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskTest/run_cookie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskTest/temp_cookie/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskTest/temp_cookie/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskTest/temp_cookie/sign_in.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FlaskTest/ran_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/ran_sql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskTest/templates/sql_register.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/templates/user_register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskTest/templates/user_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/templates/user_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskTest/templates/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/templates/users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskTest/templates/usersid.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/templates/users_query.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ran_sql (1)">
+  <component name="RunManager" selected="Python.run_cookie">
     <configuration name="File" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,27 +80,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JiChu/File.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Run2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\Study\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\Study\FlaskTest\Run2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,6 +151,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="run_cookie" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Study\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FlaskTest/run_cookie.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="run_template" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,19 +216,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.score" />
-      <item itemvalue="Python.Run2" />
       <item itemvalue="Python.run_template" />
       <item itemvalue="Python.File" />
       <item itemvalue="Python.ran_sql" />
       <item itemvalue="Python.ran_sql (1)" />
+      <item itemvalue="Python.run_cookie" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run_cookie" />
         <item itemvalue="Python.ran_sql (1)" />
         <item itemvalue="Python.ran_sql" />
         <item itemvalue="Python.run_template" />
         <item itemvalue="Python.File" />
-        <item itemvalue="Python.Run2" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586145199927</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="flask- 关系映射 一对一  一对多 多对多">
+      <created>1586405390904</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1586405390904</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -357,6 +359,7 @@
     <MESSAGE value="flask-request" />
     <MESSAGE value="flask-redirect重定向 file上传" />
     <MESSAGE value="flask- insert--update--delete--query" />
-    <option name="LAST_COMMIT_MESSAGE" value="flask- insert--update--delete--query" />
+    <MESSAGE value="flask- 关系映射 一对一  一对多 多对多" />
+    <option name="LAST_COMMIT_MESSAGE" value="flask- 关系映射 一对一  一对多 多对多" />
   </component>
 </project>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+{% if values.uname %}
+<p>
+    欢迎{{values.uname}}
+    <a href="/sign_out" >退出</a>
+</p>
+{% else %}
+<p>
+    <a href="/sign_in">请登录</a>
+</p>
+{% endif %}
+</body>
+</html>

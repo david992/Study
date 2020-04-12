@@ -48,6 +48,7 @@ class Student(db.Model):
         self.sname = sname
     def __repr__(self):
         return "<Student:%r>"%self.sname
+    # 反向引用
     courses = db.relationship(
         "Course",
         secondary="student_course",
@@ -100,7 +101,7 @@ class Course(db.Model):
     def __repr__(self):
         return "<Teacher:%r>"%self.cname
 
-
+# 创建关联表
 student_course = db.Table(
     "student_course",
     db.Column("id",db.Integer,primary_key=True),
