@@ -132,5 +132,46 @@ def sign_out():
 @app.route("/create_xhr")
 def create_xhr():
     return render_template("xhr.html")
+
+@app.route("/01getxhr")
+def getxhr():
+    return render_template("01getxhr.html")
+
+@app.route("/02get")
+def get():
+    return render_template("02get.html")
+@app.route("/02server")
+def server02_views():
+    return "ajax 请求"
+
+@app.route("/03get")
+def get03_views():
+    return render_template("03get.html")
+@app.route("/03server")
+def server03_views():
+    uname = request.args["uname"]
+    return  "welcome %s"%uname
+
+@app.route("/04post")
+def post04_views():
+    # uname = request.form["uname"]
+    return  render_template("04post.html")
+@app.route("/04server" ,methods=["POST"])
+def server04_views():
+    uname = request.form["uname"]
+    age = request.form["age"]
+    return  "welcome %s的%s"%(age,uname)
+
+@app.route("/05checkname")
+def checkname05_views():
+    return  render_template("05checkname.html")
+@app.route("/05server",methods=["POST"])
+def server05_views():
+    uname = request.form["username"]
+    user = Login.query.filter_by(uname=uname).first()
+    if user :
+        return "已存在"
+    else:
+        return "ok"
 if __name__ == "__main__":
     app.run(debug=True)

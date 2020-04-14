@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="post">发送post请求</button>
+<p id="show"></p>
+<script src="/static/js/common.js"></script>
+<script src="/static/js/jquery-3.4.1.js"></script>
+<script>
+    $(function () {
+        $("#post").click(function () {
+        var xhr = createXhr();
+        xhr.open("post","/04server",true);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState==4&&xhr.status==200){
+                $("#show").html(xhr.responseText);
+            }
+        }
+        //设置content-type请求消息头
+        xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+        xhr.send("uname=david&age=24");
+        })
+    })
+</script>
+</body>
+</html>
