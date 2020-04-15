@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="btn">发送json请求</button>
+<p id="show"></p>
+<script src="/static/js/common.js"></script>
+<script src="/static/js/jquery-3.4.1.js"></script>
+<script>
+    $(function () {
+        $("#btn").click(function () {
+            var xhr = createXhr();
+            xhr.open("get","json02",true);
+            xhr.onreadystatechange=function () {
+                if (xhr.readyState==4&&xhr.status==200){
+                    var restext=xhr.responseText;
+                    // console.log(typeof (restext))
+                    // console.log(restext)
+                    //使用each函数
+                    // $.each(restext,function (i,obj) {
+                    //     console.log(obj)
+                    // })
+                    var arr=JSON.parse((restext))
+                    console.log(typeof (arr))
+                    console.log(arr)
+                    $.each(arr,function (i,obj) {
+                        console.log(obj.name)
+                        console.log(obj.age)
+                        console.log(obj.gender)
+
+                    })
+                }
+            }
+            xhr.send(null)
+        })
+    })
+</script>
+</body>
+</html>

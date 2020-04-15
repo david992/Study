@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>json</title>
+</head>
+<body>
+<button onclick="Click()">单个JSON</button>
+<button onclick="btnClick()">多个JSON</button>
+<script src="/static/js/common.js"></script>
+<script src="/static/js/jquery-3.4.1.js"></script>
+<script>
+    function Click() {
+        var obj ={
+            "name" : "david",
+            "age" : 24,
+            "sex" : "Unknown"
+        }
+        console.log(obj.name);
+        console.log(obj.age);
+        console.log(obj.sex);
+    }
+    function btnClick() {
+        var arr=[
+            {
+            "name" : "david",
+            "age" : 24,
+            "sex" : "Unknown"
+            },
+            {
+            "name" : "lihui",
+            "age" : 20,
+            "sex" : "Unknown"
+            }
+        ];
+        // for( var i=0 ;i<arr.length;i++){
+        //     var obj = arr[i];
+        //     console.log("姓名:"+obj.name);
+        //     console.log("年龄:"+obj.age);
+        //     console.log("性别:"+obj.sex);
+        // }
+
+    //    使用jq循环遍历
+        console.log($(arr));
+        $(arr).each(function (i,obj) {
+            console.log("下标为"+i+"的元素:");
+            console.log("姓名:"+obj.name);
+            console.log("年龄:"+obj.age);
+            console.log("性别:"+obj.sex);
+        })
+        console.log("--------------")
+        $.each(arr,function (i,obj) {
+            console.log("下标为"+i+"的元素:");
+            console.log("姓名:"+obj.name);
+            console.log("年龄:"+obj.age);
+            console.log("性别:"+obj.sex);
+
+        })
+    }
+</script>
+
+</body>
+</html>
