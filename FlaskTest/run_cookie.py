@@ -16,7 +16,6 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] =  True
 app.config["SECRET_KEY"] = "INPUT A STRING"
 db = SQLAlchemy(app)
 
-
 class Login(db.Model):
     __tablename__ = "login"
     id = db.Column(db.Integer,primary_key=True,autoincrement=True)
@@ -36,6 +35,39 @@ class Login(db.Model):
             'uname':self.uname,
             'pwd':self.pwd,
             'realname':self.realname
+        }
+        return dic
+
+class Province(db.Model):
+    __tablename__="province"
+    id = db.Column(db.Integer,primary_key=True)
+    proname = db.Column(db.String(50),nullable=False)
+    citys = db.relationship("City",backref="province",lazy="dynamic")
+    def __init__(self,proname):
+        self.proname=proname
+    def __repr__(self):
+        return "<Province %r>"%self.proname
+    def to_dict(self):
+        dic={
+            "id":self.id,
+            "proname":self.proname
+        }
+        return dic
+class City(db.Model):
+    __tablename__="city"
+    id = db.Column(db.Integer,primary_key=True)
+    cityname = db.Column(db.String(50),nullable=False)
+    pro_id = db.Column(db.Integer,db.ForeignKey("province.id"))
+    def __init__(self,cityname,pro_id):
+        self.cityname=cityname
+        self.pro_id=pro_id
+    def __repr__(self):
+        return "<Province %r>"%self.cityname
+    def to_dict(self):
+        dic={
+            "id":self.id,
+            "pro_id":self.pro_id,
+            "cityname":self.cityname
         }
         return dic
 db.create_all()
@@ -230,5 +262,45 @@ def server01():
         list.append(u.to_dict())
     return dumps(list)
 
+@app.route("/province")
+def province():
+    return render_template("province.html")
+
+@app.route("/loadpro")
+def loadpro():
+    province = Province.query.all()
+    list=[]
+    for u in province:
+        list.append(u.to_dict())
+    return dumps(list)
+@app.route("/loadcity")
+def loadcity():
+    # 接收前端传来的数据 pid为参数名
+    pid = request.args.get("pid")
+    citys = City.query.filter_by(pro_id=pid).all()
+    list=[]
+    for u in citys:
+        list.append(u.to_dict())
+    return dumps(list)
+@app.route("/load")
+def load():
+    return render_template("load.html")
+@app.route("/load_server",methods=["POST"])
+def load_server():
+    # name = request.args["name"]
+    # age = request.args["age"]
+    name = request.form["name"]
+    age = request.form["age"]
+    return "%s 岁的%s"%(age,name)
+@app.route("/load_get")
+def load_get():
+    return render_template("load.html")
+@app.route("/load_server")
+def load_get_server():
+    citys = City.query.all()
+    list=[]
+    for u in citys:
+        list.append(u.to_dict())
+    return dumps(list)
 if __name__ == "__main__":
     app.run(debug=True)

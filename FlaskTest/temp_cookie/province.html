@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>province</title>
+</head>
+<body>
+<script src="/static/js/common.js"></script>
+<script src="/static/js/jquery-3.4.1.js"></script>
+<select id="selPro">
+<script>
+    function loadPro() {
+        var xhr=createXhr();
+        //false保证loadpro都执行后才执行其他操作
+        xhr.open("get","/loadpro",false);
+        xhr.onreadystatechange = function () {
+            if(xhr.readyState==4&&xhr.status==200){
+                var arr = JSON.parse(xhr.responseText);
+                var html="";
+                $.each(arr,function (i,obj) {
+                    html += "<option value='"+obj.id+"'>";
+                    html += obj.proname;
+                    html += "</option>";
+                });
+                $("#selPro").html(html)
+            }
+        }
+        xhr.send(null);
+    }
+    /**
+     * 根据省份id查询对应城市
+     * pid:省份id
+     * **/
+    function loadCity(pid){
+        var xhr =createXhr();
+        xhr.open("get","loadcity?pid="+pid,true);
+        xhr.onreadystatechange=function(){
+            if (xhr.readyState==4&&xhr.status==200){
+                var arr = JSON.parse(xhr.responseText)
+                var html="";
+                $.each(arr,function (i,obj) {
+                    html += "<option value='"+obj.id+"'>";
+                    html += obj.cityname;
+                    html += "</option>";
+                });
+                $("#selCity").html(html)
+            }
+        }
+        xhr.send(null)
+    }
+
+    $(function () {
+        //加载所有省份信息
+        loadPro()
+        //为selpro绑定change事件
+        $("#selPro").change(function () {
+            loadCity(this.value);
+        });
+    //    调用loadcity（）将默认的城市加载出来
+        loadCity($("#selPro").val())
+    });
+</script>
+</select>
+<select id="selCity">
+
+</select>
+</body>
+</html>

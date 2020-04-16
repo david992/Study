@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="btnLoad">使用Load方法加载</button>
+<button id="btnGet">使用jquery的get方法加载</button>
+<script src="/static/js/common.js"></script>
+<script src="/static/js/jquery-3.4.1.js"></script>
+<div id="show"></div>
+<div id="showGet"></div>
+
+<script>
+    $(function () {
+        $("#btnLoad").click(function () {
+            // var par ="name=david&age=24";
+            var par = {"name":"david",
+                    "age":20};
+            $("#show").load(
+                "/load_server",
+                par,
+                function (resText,statusText) {
+            $(this).html("<h1>"+resText+"</h1>")
+            });
+        });
+    });
+    $("#show").hover(function () {
+    $(this).hide()
+    })
+    $(function () {
+$("#btnGet").click(function () {
+    $.get("/load_server",function (resText){
+        var html="";
+        $.each(resText,function (i,obj) {
+            console.log(obj.id+":"+obj.cityname)
+            html += "<p>"+obj.id+":"+obj.cityname+"</p>";
+
+        })
+$("#showGet").html(html);
+    },"json");
+});
+    });
+</script>
+</body>
+</html>

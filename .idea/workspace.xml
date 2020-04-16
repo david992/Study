@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1f22b04-4c93-4fd4-a1f0-46a0227fb34e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FlaskTest/temp_cookie/01login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskTest/temp_cookie/json.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskTest/temp_cookie/page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskTest/temp_cookie/load.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskTest/temp_cookie/province.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FlaskTest/run_cookie.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/run_cookie.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskTest/templates/Document.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/templates/Document.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +248,7 @@
       <workItem from="1586679110126" duration="1816000" />
       <workItem from="1586688203364" duration="2618000" />
       <workItem from="1586760689879" duration="8840000" />
-      <workItem from="1586828405549" duration="20732000" />
+      <workItem from="1586828405549" duration="36298000" />
     </task>
     <task id="LOCAL-00001" summary="gevent_server.py 修改">
       <created>1585125238065</created>
@@ -364,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586834345598</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="flask- ajax:前后端分离">
+      <created>1586943705032</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1586943705032</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,43 +399,44 @@
     <MESSAGE value="flask- 关系映射 一对一  一对多 多对多" />
     <MESSAGE value="flask- cookie session" />
     <MESSAGE value="flask- ajax:post/get" />
-    <option name="LAST_COMMIT_MESSAGE" value="flask- ajax:post/get" />
+    <MESSAGE value="flask- ajax:前后端分离" />
+    <option name="LAST_COMMIT_MESSAGE" value="flask- ajax:前后端分离" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="870" y="50" key="CommitChangelistDialog2" timestamp="1586834342033">
+    <state x="870" y="50" key="CommitChangelistDialog2" timestamp="1586943700959">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="870" y="50" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1586834342033" />
+    <state x="870" y="50" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1586943700959" />
     <state x="968" y="132" width="797" height="712" key="DiffContextDialog" timestamp="1586860882274">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="968" y="132" width="797" height="712" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586860882274" />
-    <state width="937" height="214" key="GridCell.Tab.0.bottom" timestamp="1586942967467">
+    <state width="937" height="214" key="GridCell.Tab.0.bottom" timestamp="1586971871536">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="937" height="214" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586942967467" />
-    <state width="937" height="214" key="GridCell.Tab.0.center" timestamp="1586942967467">
+    <state width="937" height="214" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586971871536" />
+    <state width="937" height="214" key="GridCell.Tab.0.center" timestamp="1586971871534">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="937" height="214" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586942967467" />
-    <state width="937" height="214" key="GridCell.Tab.0.left" timestamp="1586942967467">
+    <state width="937" height="214" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586971871534" />
+    <state width="937" height="214" key="GridCell.Tab.0.left" timestamp="1586971871533">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="937" height="214" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586942967467" />
-    <state width="937" height="214" key="GridCell.Tab.0.right" timestamp="1586942967467">
+    <state width="937" height="214" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586971871533" />
+    <state width="937" height="214" key="GridCell.Tab.0.right" timestamp="1586971871535">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="937" height="214" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586942967467" />
+    <state width="937" height="214" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586971871535" />
     <state x="569" y="148" key="SettingsEditor" timestamp="1586679391392">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="569" y="148" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1586679391391" />
-    <state x="954" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1586939059494">
+    <state x="954" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1586967329389">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="954" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1586939059494" />
+    <state x="954" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1586967329389" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Study$run_cookie.coverage" NAME="run_cookie Coverage Results" MODIFIED="1586942967455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/Study$run_cookie.coverage" NAME="run_cookie Coverage Results" MODIFIED="1586971871514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
   </component>
 </project>
