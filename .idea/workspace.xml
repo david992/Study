@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1f22b04-4c93-4fd4-a1f0-46a0227fb34e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FlaskTest/temp_cookie/load.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskTest/temp_cookie/province.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Object/max.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskTest/run_cookie.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskTest/run_cookie.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -32,10 +30,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/FlaskTest/static/js" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -53,8 +53,8 @@
       <recent name="E:\Study\WLBC" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run_cookie">
-    <configuration name="File" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.threads">
+    <configuration name="Human" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,7 +67,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JiChu/File.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Object/Human.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,6 +98,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="calculate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Study\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JiChu/calculate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ran_sql (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,28 +134,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FlaskTest/ran_sql.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ran_sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\Study\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Study\FlaskTest\ran_sql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,28 +164,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run_template" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\Study\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FlaskTest/run_template.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="score" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,21 +186,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="threads" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Study\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JiChu/threads.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.score" />
-      <item itemvalue="Python.File" />
       <item itemvalue="Python.ran_sql (1)" />
-      <item itemvalue="Python.ran_sql" />
       <item itemvalue="Python.run_cookie" />
-      <item itemvalue="Python.run_template" />
+      <item itemvalue="Python.Human" />
+      <item itemvalue="Python.calculate" />
+      <item itemvalue="Python.threads" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.threads" />
+        <item itemvalue="Python.calculate" />
+        <item itemvalue="Python.Human" />
         <item itemvalue="Python.run_cookie" />
         <item itemvalue="Python.ran_sql (1)" />
-        <item itemvalue="Python.ran_sql" />
-        <item itemvalue="Python.run_template" />
-        <item itemvalue="Python.File" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +248,15 @@
       <workItem from="1586679110126" duration="1816000" />
       <workItem from="1586688203364" duration="2618000" />
       <workItem from="1586760689879" duration="8840000" />
-      <workItem from="1586828405549" duration="36298000" />
+      <workItem from="1586828405549" duration="41114000" />
+      <workItem from="1587014875706" duration="709000" />
+      <workItem from="1587176326039" duration="258000" />
+      <workItem from="1587525668959" duration="1041000" />
+      <workItem from="1587699389637" duration="3245000" />
+      <workItem from="1587734981049" duration="19000" />
+      <workItem from="1587778094705" duration="59000" />
+      <workItem from="1588500063115" duration="613000" />
+      <workItem from="1588684643485" duration="3197000" />
     </task>
     <task id="LOCAL-00001" summary="gevent_server.py 修改">
       <created>1585125238065</created>
@@ -369,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586943705032</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="flask- ajax:前后端分离">
+      <created>1587007517746</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1587007517746</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,40 +418,51 @@
     <option name="LAST_COMMIT_MESSAGE" value="flask- ajax:前后端分离" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="870" y="50" key="CommitChangelistDialog2" timestamp="1586943700959">
+    <state x="870" y="50" key="CommitChangelistDialog2" timestamp="1587007513493">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="870" y="50" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1586943700959" />
+    <state x="870" y="50" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1587007513493" />
     <state x="968" y="132" width="797" height="712" key="DiffContextDialog" timestamp="1586860882274">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="968" y="132" width="797" height="712" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586860882274" />
-    <state width="937" height="214" key="GridCell.Tab.0.bottom" timestamp="1586971871536">
+    <state width="937" height="214" key="GridCell.Tab.0.bottom" timestamp="1588687629170">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="937" height="214" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586971871536" />
-    <state width="937" height="214" key="GridCell.Tab.0.center" timestamp="1586971871534">
+    <state width="937" height="214" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1588687629170" />
+    <state width="937" height="214" key="GridCell.Tab.0.center" timestamp="1588687629170">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="937" height="214" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586971871534" />
-    <state width="937" height="214" key="GridCell.Tab.0.left" timestamp="1586971871533">
+    <state width="937" height="214" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1588687629170" />
+    <state width="937" height="214" key="GridCell.Tab.0.left" timestamp="1588687629169">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="937" height="214" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586971871533" />
-    <state width="937" height="214" key="GridCell.Tab.0.right" timestamp="1586971871535">
+    <state width="937" height="214" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1588687629169" />
+    <state width="937" height="214" key="GridCell.Tab.0.right" timestamp="1588687629170">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="937" height="214" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586971871535" />
-    <state x="569" y="148" key="SettingsEditor" timestamp="1586679391392">
+    <state width="937" height="214" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1588687629170" />
+    <state x="569" y="148" key="SettingsEditor" timestamp="1587010975315">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="569" y="148" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1586679391391" />
+    <state x="569" y="148" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1587010975315" />
+    <state x="959" y="211" key="Vcs.Push.Dialog.v2" timestamp="1588687047945">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="959" y="211" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588687047945" />
+    <state x="1104" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588687175018">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1104" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588687175018" />
     <state x="954" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1586967329389">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="954" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1586967329389" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Study$threads.coverage" NAME="threads Coverage Results" MODIFIED="1588687629141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/Study$calculate.coverage" NAME="calculate Coverage Results" MODIFIED="1588687179822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/Study$run_cookie.coverage" NAME="run_cookie Coverage Results" MODIFIED="1586971871514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/Study$Human.coverage" NAME="Human Coverage Results" MODIFIED="1588685309523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
   </component>
 </project>
