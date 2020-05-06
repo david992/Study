@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1f22b04-4c93-4fd4-a1f0-46a0227fb34e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Object/max.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskTest/static/images/登录流程.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/FlaskTest/static/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FlaskTest/static/images" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -256,7 +256,9 @@
       <workItem from="1587734981049" duration="19000" />
       <workItem from="1587778094705" duration="59000" />
       <workItem from="1588500063115" duration="613000" />
-      <workItem from="1588684643485" duration="3197000" />
+      <workItem from="1588684643485" duration="3532000" />
+      <workItem from="1588760368824" duration="1867000" />
+      <workItem from="1588764913265" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="gevent_server.py 修改">
       <created>1585125238065</created>
@@ -384,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587007517746</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="字典排序">
+      <created>1588688233788</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1588688233788</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,49 +424,50 @@
     <MESSAGE value="flask- cookie session" />
     <MESSAGE value="flask- ajax:post/get" />
     <MESSAGE value="flask- ajax:前后端分离" />
-    <option name="LAST_COMMIT_MESSAGE" value="flask- ajax:前后端分离" />
+    <MESSAGE value="字典排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="字典排序" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="870" y="50" key="CommitChangelistDialog2" timestamp="1587007513493">
+    <state x="870" y="50" key="CommitChangelistDialog2" timestamp="1588688229469">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="870" y="50" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1587007513493" />
+    <state x="870" y="50" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1588688229469" />
     <state x="968" y="132" width="797" height="712" key="DiffContextDialog" timestamp="1586860882274">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="968" y="132" width="797" height="712" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586860882274" />
-    <state width="937" height="214" key="GridCell.Tab.0.bottom" timestamp="1588687629170">
+    <state width="466" height="214" key="GridCell.Tab.0.bottom" timestamp="1588688279150">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="937" height="214" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1588687629170" />
-    <state width="937" height="214" key="GridCell.Tab.0.center" timestamp="1588687629170">
+    <state width="466" height="214" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1588688279150" />
+    <state width="466" height="214" key="GridCell.Tab.0.center" timestamp="1588688279149">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="937" height="214" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1588687629170" />
-    <state width="937" height="214" key="GridCell.Tab.0.left" timestamp="1588687629169">
+    <state width="466" height="214" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1588688279149" />
+    <state width="466" height="214" key="GridCell.Tab.0.left" timestamp="1588688279148">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="937" height="214" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1588687629169" />
-    <state width="937" height="214" key="GridCell.Tab.0.right" timestamp="1588687629170">
+    <state width="466" height="214" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1588688279148" />
+    <state width="466" height="214" key="GridCell.Tab.0.right" timestamp="1588688279149">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="937" height="214" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1588687629170" />
+    <state width="466" height="214" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1588688279149" />
     <state x="569" y="148" key="SettingsEditor" timestamp="1587010975315">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="569" y="148" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1587010975315" />
-    <state x="959" y="211" key="Vcs.Push.Dialog.v2" timestamp="1588687047945">
+    <state x="959" y="211" key="Vcs.Push.Dialog.v2" timestamp="1588688241204">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="959" y="211" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588687047945" />
+    <state x="959" y="211" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588688241204" />
     <state x="1104" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588687175018">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1104" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588687175018" />
-    <state x="954" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1586967329389">
+    <state x="954" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1588688218056">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="954" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1586967329389" />
+    <state x="954" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1588688218056" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Study$threads.coverage" NAME="threads Coverage Results" MODIFIED="1588687629141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
